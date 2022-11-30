@@ -53,7 +53,7 @@ class ProductController extends Controller
         $product -> save();
         
         //return redirect()->back()->with('status','Student Image Added Successfully');
-        return redirect() -> route('products.show', $product);
+        return redirect() -> route('products.index');
     }
 
     /**
@@ -109,7 +109,7 @@ class ProductController extends Controller
         //return redirect()->back()->with('status','Student Image Updated Successfully');
     
         $product -> save();
-        return redirect() -> route('products.show', $product);
+        return redirect() -> route('products.index');
 
         
     }

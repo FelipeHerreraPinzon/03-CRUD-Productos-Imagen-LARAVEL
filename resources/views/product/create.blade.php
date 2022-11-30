@@ -19,7 +19,7 @@
 <br>
 <input type="file" name="imagen">
 <br>
-<input type="submit" name="enviar" value="ENVIAR">
+<input type="submit" class="btn btn-success mt-2" name="enviar" value="ENVIAR">
 
 
 </form>
